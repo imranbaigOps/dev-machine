@@ -1,7 +1,7 @@
 ---
 
-- hosts: all
+- hosts: localhost
   roles:
     - dev
     - atom
-  user: steveedson
+  user: admin
