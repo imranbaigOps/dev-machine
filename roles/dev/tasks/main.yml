@@ -128,6 +128,7 @@
   homebrew: name={{ item }} state=present
   with_items:
     - php71
+    - zsh
     - php71-xdebug
     - php71-mcrypt
     - php-code-sniffer
